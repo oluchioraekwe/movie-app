@@ -479,3 +479,13 @@
 {"level":"info","message":"Connected to mongodb://localhost:27017/genres","timestamp":"2022-06-26T17:02:51.870Z"}
 {"level":"info","message":"Server running on port 3000","timestamp":"2022-06-26T17:21:34.713Z"}
 {"level":"info","message":"Connected to mongodb://localhost:27017/genres","timestamp":"2022-06-26T17:21:34.818Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2022-06-26T19:34:56.981Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2022-06-26T19:34:57.079Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2022-06-26T19:35:51.143Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres","timestamp":"2022-06-26T19:35:51.190Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2022-06-26T19:36:27.159Z"}
+{"level":"warn","message":"Could not connect to MongoDB... bad auth : Authentication failed.","timestamp":"2022-06-26T19:36:29.155Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2022-06-26T19:38:17.722Z"}
+{"level":"info","message":"Connected to mongodb+srv://adminuser:1234admin@cluster0.vvnhcpc.mongodb.net/?retryWrites=true&w=majority","timestamp":"2022-06-26T19:38:19.488Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2022-06-26T19:39:37.958Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres","timestamp":"2022-06-26T19:39:38.049Z"}
