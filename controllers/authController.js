@@ -69,6 +69,8 @@ const getCurrentUser = async(req,res)=>{
    return res.status(200).send(_.pick(user,['_id','name','email']))
     
 }
+
+
 module.exports={
     registerUser,
     loginUser,

@@ -5,16 +5,17 @@ const customers = require('./customers')
 const movies = require('./movies')
 const rentals = require('./rentals')
 const users = require('./user')
+const home = require('./home')
 const error = require('../middlewares/error')
 require('dotenv').config()
-//const app = express()
-const apiDocumentation = `https://documenter.getpostman.com/view/16889062/UzBsHQ2X`
+
+
 module.exports=function(app){
 app.use(express.json())
 if(process.env.NODE_ENV == "development"){
     app.use(morgan('dev'))
 }
-app.use("/",apiDocumentation)
+app.use("/",home)
 app.use("/api/genres",genres)
 app.use("/api/customers",customers)
 app.use("/api/movies",movies)
