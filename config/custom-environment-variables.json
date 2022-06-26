@@ -1,3 +1,5 @@
 {
-    "jwtPrivateKey":"genre_myprivatekey"
+    "jwtPrivateKey":"genre_myprivatekey",
+    "db":"moviedb"
+
 }
