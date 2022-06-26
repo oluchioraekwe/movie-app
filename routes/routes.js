@@ -6,12 +6,14 @@ const movies = require('./movies')
 const rentals = require('./rentals')
 const users = require('./user')
 const error = require('../middlewares/error')
-
+require('dotenv').config()
 //const app = express()
 
 module.exports=function(app){
 app.use(express.json())
-app.use(morgan('dev'))
+if(process.env.NODE_ENV == "development"){
+    app.use(morgan('dev'))
+}
 app.use("/api/genres",genres)
 app.use("/api/customers",customers)
 app.use("/api/movies",movies)
