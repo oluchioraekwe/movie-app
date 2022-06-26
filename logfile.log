@@ -489,3 +489,5 @@
 {"level":"info","message":"Connected to mongodb+srv://adminuser:1234admin@cluster0.vvnhcpc.mongodb.net/?retryWrites=true&w=majority","timestamp":"2022-06-26T19:38:19.488Z"}
 {"level":"info","message":"Server running on port 3000","timestamp":"2022-06-26T19:39:37.958Z"}
 {"level":"info","message":"Connected to mongodb://localhost:27017/genres","timestamp":"2022-06-26T19:39:38.049Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2022-06-26T20:42:53.311Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres","timestamp":"2022-06-26T20:42:53.397Z"}
