@@ -11,27 +11,25 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
-        mongodb-version: ['4.0','4.2','4.4']
+        mongodb-version: ['4.4.14','5.0.9']
     env:
       JOB_VARIABLE: "This is my Job Bariable"
     steps:
       - name: Git Checkout
         uses: actions/checkout@v2
 
-      - name: Use Node.js ${{matrix.node-version}}
-        uses: actions/setup-node@v1
+      - name: Set up Node Js
+        uses: actions/setup-node@v4
         with:
-          node-version: ${{matrix.node-version}}
+          node-version: 14
 
       - name: Start mongodb-version
-        uses: supercharge/mongodb-github-action@1.6.0
+        uses: MongoCamp/mongodb-github-action@1.0.0
         with:
           mongodb-version: ${{matrix.mongodb-version}}
-          mongodb-port: 27017
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run tests
         run: npm test        
