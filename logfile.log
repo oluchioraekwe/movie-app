@@ -9,3 +9,37 @@
 {"level":"warn","message":"Could not connect to MongoDB... Error: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2023-12-05T00:16:06.899Z"}
 {"level":"warn","message":"Could not connect to MongoDB... Error: connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2023-12-05T00:16:25.115Z"}
 {"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T00:16:46.952Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:09:57.961Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:10:00.971Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:10:04.937Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:10:05.073Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:11:10.014Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:11:10.434Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:11:14.237Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:11:14.326Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:11:31.925Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:11:32.059Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:11:34.285Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:11:34.367Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:12:01.492Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:12:01.762Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:12:03.846Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:12:03.967Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:12:53.547Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:12:53.784Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:12:57.384Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:12:57.465Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T19:12:59.352Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T19:12:59.446Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T20:13:41.477Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T20:13:43.697Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T20:13:47.421Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T20:13:47.537Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T20:13:50.047Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T20:13:50.123Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T20:14:12.056Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T20:14:12.165Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T20:14:20.387Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T20:14:20.476Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2023-12-05T20:14:22.690Z"}
+{"level":"info","message":"Connected to mongodb://localhost:27017/genres_test","timestamp":"2023-12-05T20:14:22.788Z"}

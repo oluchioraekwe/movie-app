@@ -9,22 +9,31 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x]
+        mongodb-version: ['4.0','4.2','4.4']
     env:
       JOB_VARIABLE: "This is my Job Bariable"
     steps:
-      - uses: actions/checkout@v2
+      - name: Git Checkout
+        uses: actions/checkout@v2
 
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Use Node.js ${{matrix.node-version}}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{matrix.node-version}}
 
-      - name: Run a multiline script
-        # run: |
-        #   echo Add other actions to build,
-        #   echo test, and drploy your project.
-        
+      - name: Start mongodb-version
+        uses: supercharge/mongodb-github-action@1.6.0
+        with:
+          mongodb-version: ${{matrix.mongodb-version}}
+          mongodb-port: 27017
+
+      - name: Install dependencies
+        run: npm Install
+
+      - name: Run tests
+        run: npm test        
         env: 
-          STEP_VARIABLE: "This is my step variable"
-
-        run: |
-          echo $JOB_VARIABLE
-          echo $STEP_VARIABLE
+          CI: true
